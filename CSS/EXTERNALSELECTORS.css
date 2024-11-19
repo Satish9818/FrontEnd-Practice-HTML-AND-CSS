@@ -1,0 +1,31 @@
+
+
+            *
+            {
+                background-color: grey;
+            }
+            i{
+                background-color: aqua;
+            }
+
+            #a{
+                background-color: aquamarine;
+            }
+            #b{
+                background-color: bisque;
+            }
+            #c{
+                background-color: deepskyblue;
+            }
+
+            .a{
+                background-color: red;
+            }
+            #a1,#a2{
+                background-color: cyan;
+            }
+
+            i,u{
+                background-color: yellow;
+            }
+

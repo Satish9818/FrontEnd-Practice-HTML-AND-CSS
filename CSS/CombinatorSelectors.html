@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>
+            COMBINATOR SELECTORS
+        </title>
+        <style>
+
+            section article{
+                background-color: aqua;
+            }
+            section>header{
+                background-color: maroon;
+            }
+            section+div
+            {
+                background-color: blueviolet;
+            }
+            section~footer{
+                background-color: yellow;
+            }
+           section>#b div{
+                    background-color: aquamarine;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <section>
+            <article>ARTICLE 1</article>
+           
+            <div>DIV 1</div>
+            <div>DIV 2</div>
+            <footer>Footer 1</footer>
+            <footer>footer 2</footer>
+            <header id="a">
+                    <div>DIV 3</div>
+                    <article>ARTICLE 2</article>
+            </header>
+            <header id="b">
+                <div>DIV 4</div>
+                <nav>nav 1</nav>
+                <div>DIV EXTRA</div>
+            </header>
+
+        </section>
+        <div>DIV 5</div>
+        <div>DIV 6</div>
+        <footer>footer 3</footer>
+        <footer>footer 4</footer>
+        <article>ARTICLE 4</article>
+    </body>
+</html>
+
+<!-- descendant -> "space" --> 
+<!--  it will target all the descendant from ancestors -->
+<!-- child ->  "> -->         
+<!--   it will target only the child -->
+<!-- Adjacent sibling -> "+"" -->   
+<!-- it will target all the neighbouring sibling -->
+<!-- General Sibling -> "~"" -->     
+<!--  it will target all siblings -->
